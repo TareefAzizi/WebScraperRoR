@@ -14,7 +14,7 @@ GEM
       time
       uri
     racc (1.6.1)
-    rack (2.2.4)
+    rack (2.2.8)
     rack-protection (3.0.4)
       rack
     ruby2_keywords (0.0.5)
@@ -32,6 +32,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   json
