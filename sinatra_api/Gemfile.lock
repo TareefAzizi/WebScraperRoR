@@ -1,20 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    date (3.3.1)
+    date (3.3.4)
     json (2.6.3)
-    mini_portile2 (2.8.5)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.13.10)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.16.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     open-uri (0.3.0)
       stringio
       time
       uri
-    racc (1.6.1)
-    rack (2.2.4)
+    racc (1.7.3)
+    rack (2.2.8)
     rack-protection (3.0.4)
       rack
     ruby2_keywords (0.0.5)
@@ -25,13 +25,14 @@ GEM
       tilt (~> 2.0)
     stringio (3.0.4)
     tilt (2.0.11)
-    time (0.2.0)
+    time (0.3.0)
       date
-    uri (0.12.0)
+    uri (0.13.0)
 
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   json
